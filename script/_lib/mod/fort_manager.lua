@@ -6,6 +6,8 @@ end
 local fort_manager = {
     button_key = "build_fort",
     button = nil,
+
+    -- TODO track the index of watchtower/fort/agent within the fort manager proper
 }
 
 function fort_manager:create_main_button()
